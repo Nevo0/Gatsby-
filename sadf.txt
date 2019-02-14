@@ -1,0 +1,5 @@
+import "./bootstrap.min.css";
+
+import { FaGulp } from "react-icons/fa";
+
+do pliku Layout importujemy komponent Navbar
