@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 
 import BackgroundSection from "../components/Globals/BackgroundSection";
 import Layout from "../components/layout";
+import Info from "../components/Home/Info";
 
 import SEO from "../components/seo";
 
@@ -18,6 +19,7 @@ const IndexPage = ({ data }) => {
         title={"Hello there"}
         styleClass="default-background"
       />
+      <Info />
     </Layout>
   );
 };
