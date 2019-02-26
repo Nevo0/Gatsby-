@@ -7,3 +7,12 @@ do pliku Layout importujemy komponent Navbar
 gatsby-source-filesystem
 
 
+
+const getCategories = items => {
+  let tempItems = items.map(item => {
+    return item.node.category;
+  });
+  let tempCategories = new Set(tempItems);
+  let categories = Array.from(tempCategories);
+  return categories;
+};
