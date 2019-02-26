@@ -18,7 +18,7 @@ const Info = () => {
               esse magni temporibus sed ab a voluptatibus, quia expedita eum
               eveniet quaerat tenetur!
             </p>
-            <Link to="/abaut/">
+            <Link to="/about/">
               <button className="btn text-uppercase btn-yellow">
                 about page
               </button>
