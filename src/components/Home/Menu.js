@@ -50,7 +50,7 @@ export default class Menu extends Component {
   };
 
   render() {
-    console.log(this.state.coffeeItems2);
+    // console.log(this.state.coffeeItems2);
     // console.log(this.props.items.edges);
 
     if (this.state.items.length > 0) {
